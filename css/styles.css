@@ -15,9 +15,25 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 img {
-  height: 300px;
-  width: 225px;
+  height: 200px;
+  width: 200px;
   border-radius: 5%;
+}
+
+#app {
+  height: 1700px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 @font-face {
@@ -167,8 +183,8 @@ footer .terms {
 .hero {
   height: 500px;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(164, 146, 162, 0.1)), to(rgba(164, 146, 162, 0.7))), url(../images/Pac-man.png);
-  background-image: linear-gradient(rgba(164, 146, 162, 0.1), rgba(164, 146, 162, 0.7)), url(../images/Pac-man.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(164, 146, 162, 0.1)), to(rgba(225, 215, 162, 0.6))), url(../images/Pac-man.png);
+  background-image: linear-gradient(rgba(164, 146, 162, 0.1), rgba(225, 215, 162, 0.6)), url(../images/Pac-man.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -183,7 +199,7 @@ footer .terms {
   height: 150px;
   width: 1200px;
   background-color: rgba(0, 0, 0, 0.7);
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .hero .calloutContainer .callout {
   color: white;
@@ -235,147 +251,27 @@ footer .terms {
   margin-left: 50px;
   border-radius: 15px;
 }
-.browse .browseContainer .browseImage1 {
-  height: 200px;
-  width: 200px;
-  border-radius: 5%;
-  background-image: url(../images/doghillEntrance.JPG);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.browse .browseContainer .browseImage2 {
-  height: 200px;
-  width: 200px;
-  border-radius: 5%;
-  background-image: url(../images/caveCrawl.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.browse .browseContainer .browseImage3 {
-  height: 200px;
-  width: 200px;
-  border-radius: 5%;
-  background-image: url(../images/rimstoneClimb.JPG);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.browse .browseContainer .browseImage4 {
-  height: 200px;
-  width: 200px;
-  border-radius: 5%;
-  background-image: url(../images/caveRiver2.JPG);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.browse .browseContainer .browseImage5 {
-  height: 200px;
-  width: 200px;
-  border-radius: 5%;
-  background-image: url(../images/hugeFormations.JPG);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.browse .browseContainer .browseImage6 {
-  height: 200px;
-  width: 200px;
-  border-radius: 5%;
-  background-image: url(../images/waterCrawl.JPG);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.browse .browseContainer .browseImage7 {
-  height: 200px;
-  width: 200px;
-  border-radius: 5%;
-  background-image: url(../images/smallCrawl.JPG);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.browse .browseContainer .browseImage8 {
-  height: 200px;
-  width: 200px;
-  border-radius: 5%;
-  background-image: url(../images/beginningBathtub.JPG);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.browse .browseContainer .browseImage9 {
-  height: 200px;
-  width: 200px;
-  border-radius: 5%;
-  background-image: url(../images/markInBathtub.JPG);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.browse .browseContainer .browseImage10 {
-  height: 200px;
-  width: 200px;
-  border-radius: 5%;
-  background-image: url(../images/nopeRope.JPG);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 .browse .browseContainer .browseContentContainer {
-  height: 150px;
+  height: 180px;
   width: 200px;
 }
-.browse .browseContainer .browseContentContainer .browseContent1 {
+.browse .browseContainer .browseContentContainer .title {
+  height: 30px;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  font-family: Inconsolata;
+}
+.browse .browseContainer .browseContentContainer .browseContent {
   color: white;
   font-size: 12px;
   font-family: Inconsolata;
 }
-.browse .browseContainer .browseContentContainer .browseContent2 {
+.browse .browseContainer .browseContentContainer .rating {
+  height: 30px;
+  width: 200px;
   color: white;
-  font-size: 12px;
+  font-size: 20px;
   font-family: Inconsolata;
-}
-.browse .browseContainer .browseContentContainer .browseContent3 {
-  color: white;
-  font-size: 12px;
-  font-family: Inconsolata;
-}
-.browse .browseContainer .browseContentContainer .browseContent4 {
-  color: white;
-  font-size: 12px;
-  font-family: Inconsolata;
-}
-.browse .browseContainer .browseContentContainer .browseContent5 {
-  color: white;
-  font-size: 12px;
-  font-family: Inconsolata;
-}
-.browse .browseContainer .browseContentContainer .browseContent6 {
-  color: white;
-  font-size: 12px;
-  font-family: Inconsolata;
-}
-.browse .browseContainer .browseContentContainer .browseContent7 {
-  color: white;
-  font-size: 12px;
-  font-family: Inconsolata;
-}
-.browse .browseContainer .browseContentContainer .browseContent8 {
-  color: white;
-  font-size: 12px;
-  font-family: Inconsolata;
-}
-.browse .browseContainer .browseContentContainer .browseContent9 {
-  color: white;
-  font-size: 12px;
-  font-family: Inconsolata;
-}
-.browse .browseContainer .browseContentContainer .browseContent10 {
-  color: white;
-  font-size: 12px;
-  font-family: Inconsolata;
+  margin-top: 10px;
 }

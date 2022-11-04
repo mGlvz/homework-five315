@@ -12,9 +12,18 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 img{
-    height: 300px;
-    width: 225px;
+    height: 200px;
+    width: 200px;
     border-radius: 5%;
+}
+
+#app{
+    height: 1700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 @font-face {
